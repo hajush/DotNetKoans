@@ -1,13 +1,18 @@
 = DotNet Koans
 
-This is a fork of the DotNet Koans that Cory Foy made.
+This is a fork of the DotNet Koans MarkVanPeteghem forked from Cory Foy.
 
 The DotNet Koans walk you along the path to enlightenment in order to learn .NET. The goal is to learn a .NET language (C#, VB.NET, F#, etc), syntax, structure and some common functions and libraries. 
 
 The DotNet Koans came about because of the most enlightened RubyKoans (http://github.com/edgecase/ruby_koans) and follow the structure of it most closely.
 
+These Koans have been updated and altered to work with Mono on OSX.
+
 To use these Koans:
-1. open the CSharp or VB solution
-2. press F7 to build the solution and double click the warning that you see
-3. understand the code and its comments, and fix the code to make the assertion succeed
-4. repeat by going back to step 2 until all Koans are done
+1. Install Mono and Xamarin Studio on the Mac OSX.
+2. Open ./CSharp.sln
+3. (You may need to right click on the top level CSharp Solution in the Solution tab and "Update NuGet Packages")
+4. Rebuild the solution (Command B to rebuild all)
+5. View the Build Output. You should probably "dock" the build output window.
+6. Understand the code and its comments, and fix the code to make the assertion succeed
+7. Rebuild just the CSharp solution (Command K) and go to step 5 until all Koans are done
