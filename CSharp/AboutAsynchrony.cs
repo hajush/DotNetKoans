@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using Xunit;
 using System.IO;
 
-#pragma warning disable 1998
+#pragma warning disable 1998 219
 
 namespace DotNetKoans.CSharp
 {

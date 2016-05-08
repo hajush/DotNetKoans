@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using Xunit;
 using System.Linq;
 
+#pragma warning disable 219
+
 namespace DotNetKoans.CSharp
 {
     public class AboutStrings : Koan
